@@ -82,7 +82,7 @@ section nav .icons i:hover {
     color: #c72092;
 }
 
-section .main .main_content{
+section .main .main_content {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -96,7 +96,7 @@ section .main .main_content .main_text h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
-    top: 45px;
+    top: 85px;
     left: 5%;
 }
 
