@@ -48,7 +48,7 @@ section nav .logo {
     padding: 0.6%;
     cursor: pointer;
     position: relative;
-    left: -4%;
+    left: -5%;
 }
 
 section nav ul {
@@ -78,8 +78,7 @@ section nav .icons i {
 }
 
 section nav .icons i:hover {
-    color: dimgray;
-    
+    background-color:rgb(180, 180, 180)
 }
 
 section .main .main_content {
