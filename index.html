@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Browser Link Icon -->
-    <link rel="shortcut icon" href="./Pics/download.png">
+    <link rel="shortcut icon" href="./Pics/Nike-Logo..png">
     <!-- CSS Link -->
     <link rel="stylesheet" href="./CSS/styles.css">
     <!-- CSS Font -->
@@ -71,7 +71,7 @@
         <h1> PRODUCTS </h1>
             <div class="box">
 
-                <!-- ======================================== ITEM NO.1 ============================================= -->
+                <!-- =========================================== ITEM NO.1 ============================================ -->
                 <div class="card">
                     <div class="small_card">
                         <i class="fa-solid fa-heart"></i>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
 
-                <!-- ======================================== ITEM NO.2 ============================================= -->
+                <!-- =========================================== ITEM NO.2 ============================================ -->
                 <div class="card">
                     <div class="small_card">
                         <i class="fa-solid fa-heart"></i>
@@ -129,7 +129,7 @@
                     </div>
                 </div>
 
-                <!-- ======================================== ITEM NO.3 ============================================= -->
+                <!-- =========================================== ITEM NO.3 ============================================ -->
                 <div class="card">
                     <div class="small_card">
                         <i class="fa-solid fa-heart"></i>
@@ -158,7 +158,7 @@
                     </div>
                 </div>
 
-                <!-- ======================================== ITEM NO.4 ============================================= -->
+                <!-- =========================================== ITEM NO.4 ============================================ -->
                 <div class="card">
                     <div class="small_card">
                         <i class="fa-solid fa-heart"></i>
@@ -187,7 +187,7 @@
                     </div>
                 </div>
 
-                <!-- ======================================== ITEM NO.5 ============================================= -->
+                <!-- =========================================== ITEM NO.5 ============================================ -->
                 <div class="card">
                     <div class="small_card">
                         <i class="fa-solid fa-heart"></i>
@@ -215,7 +215,7 @@
                         <a href="#" class="btn"> Add To Cart</a>
                     </div>
                 </div>
-                <!-- ======================================== ITEM NO.6 ============================================= -->
+                <!-- =========================================== ITEM NO.6 ============================================ -->
                 <div class="card">
                     <div class="small_card">
                         <i class="fa-solid fa-heart"></i>
@@ -243,7 +243,7 @@
                         <a href="#" class="btn"> Add To Cart</a>
                     </div>
                 </div>
-                <!-- ======================================== ITEM NO.7 ============================================= -->
+                <!-- =========================================== ITEM NO.7 ============================================ -->
                 <div class="card">
                     <div class="small_card">
                         <i class="fa-solid fa-heart"></i>
@@ -271,7 +271,7 @@
                         <a href="#" class="btn"> Add To Cart</a>
                     </div>
                 </div>
-                <!-- ======================================== ITEM NO.8 ============================================= -->
+                <!-- =========================================== ITEM NO.8 ============================================ -->
                 <div class="card">
                     <div class="small_card">
                         <i class="fa-solid fa-heart"></i>
@@ -304,7 +304,41 @@
 
     <!-- ================================================== ABOUT ======================================================= -->
     <div class="about" id="About">
-        <h1><span></span></h1>
+        <h1>About</h1>
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="./Pics/About_Img 1.jpeg" onclick="functio(this)">
+                    <img src="./Pics/About_Img 2.jpg" onclick="functio(this)">
+                    <img src="./Pics/About_Img 3.jpeg" onclick="functio(this)">
+                    <img src="./Pics/About_Img 4.jpg" onclick="functio(this)">
+                </div>
+
+                <div class="image_container">
+                    <img src="./Pics/About_Img 1.jpeg" id="imagebox">
+                </div>
+            </div>
+
+            <div class="about_text">
+                <p>
+                    The ultra-plush collar and Air cushioning keep it comfortable no matter where you go.
+                    Velvety leather on the upper adds a premium touch that's easy to style. 
+                    All-over perforations keep it lightweight, airy and comfortable.
+                    Originally designed for performance hoops, Nike Air cushioning delivers comfort.
+                </p>
+            </div>
+        </div>
+
+        <a href="#" class="about_btn">Shop Now</a>
+
+        <script>
+            function functio(small){
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+        </script>
     </div>
+
+    <!-- ================================================== REVIEW ======================================================= -->
 </body>
 </html>
