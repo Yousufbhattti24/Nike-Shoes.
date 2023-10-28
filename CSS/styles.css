@@ -47,8 +47,8 @@ section nav {
 section nav .logo {
     padding: 0.6%;
     cursor: pointer;
-    position: relative;
-    left: -5%;
+    position: static;
+    left: -4%;
 }
 
 section nav ul {
@@ -71,7 +71,7 @@ section nav ul li a:hover {
 }
 
 section nav .icons i {
-    margin: 0 4px;
+    margin: 0 6px;
     cursor: pointer;
     font-size: 18px;
     transition: 0.3s;
