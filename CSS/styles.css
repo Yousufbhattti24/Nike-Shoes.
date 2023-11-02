@@ -745,6 +745,8 @@ footer .footer_main .tag .search_bar {
     margin-top: 18px;
     background: rgb(202, 202, 202);
     border-radius: 5px;
+    box-shadow: 0 0 8px black;
+    transition: 0.5s;
 }
 
 footer .footer_main .tag .search_bar input {
